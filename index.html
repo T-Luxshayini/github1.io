@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxshayini's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=League+Spartan:wght@100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Reddit+Mono:wght@200..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Luxshayini</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#profile"><i class="fa fa-fw fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-address-book" aria-hidden="true"></i>About</a></li>
+        <li><a href="#experience"><i class="fa fa-laptop" aria-hidden="true"></i>Skills</a></li>
+        <li><a href="#projects"><i class="fa fa-medium" aria-hidden="true"></i>Blogs</a></li>
+        <li><a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Luxshayini</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Blogs</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    
+    
+    <div class="section__pic-container">
+      <img src="lux4.jpeg" alt="John Doe profile picture"  />
+      
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Luxshayini Thevapalan</h1>
+      <p class="section__text__p2">< /Student Developer></p>
+      <a href="https://www.linkedin.com/in/luxshayini/"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:24px"></i></a>
+    <a href="https://github.com/T-Luxshayini"><i class="fa fa-github" style="font-size:24px"></i></a>
+    <a href="https://x.com/luxsha_t"  target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="font-size:24px"></i>
+    </a>
+      <!-- <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume-example.pdf')"
+        >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div> -->
+      <!-- <div id="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="location.href='https://linkedin.com/'"
+        />
+        <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://github.com/'"
+        />
+      </div> -->
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="girl1.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            
+            
+          </div>
+          
+        <div class="text-container">
+          <p>
+            Hey there!<br />I'm <h1 class="luxsha">Luxshayini Thevapalan</h1><br>20-year-old coder passionate about problem-solving. <br>
+              From J/Vadamaradchy Hindu Girls' College(2014-2019) to Uki Coding School(2024).<br>
+               Now diving into full-stack development, I'm eager to push boundaries in the digital realm.<br>
+                Follow along as I share projects and explore software development.<br> Let's build something amazing together!
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <!-- <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+    /> -->
+  </section>
+  <section id="experience">
+    
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <!-- <h2 class="experience-sub-title"></h2> -->
+          <div class="article-container">
+            <article>
+              <img
+                src="htmlt.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                
+              </div>
+            </article>
+            <article>
+              <img
+                src="CSS.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>CSS</h3>
+                
+              </div>
+            </article>
+            <article>
+              <img
+                src="bootstrap7.svg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Bootstrap</h3>
+                
+              </div>
+            </article>
+            <article>
+              <img
+                src="tailwind.jpeg"
+                alt="Experience icon"
+                class="icon" 
+              />
+              <div>
+                <h3>Tailwind</h3>
+               
+              </div>
+            </article>
+            <!-- <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article> -->
+          <!-- </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article> -->
+            <article>
+              <img
+                src="git.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
+                
+              </div>
+            </article>
+            <article>
+              <img
+                src="github.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Github</h3>
+                
+              </div>
+            </article>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    /> -->
+    
+
+  </section>
+  <section id="projects">
+    
+    <h1 class="title">Blogs</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="bootmedium.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Bootstrap</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://medium.com/@luxshayini1203/bootstrap-beginners-guide-26b1333b6a20'"
+            >
+              click here
+            <!-- </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="5g.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">5G Technology</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://medium.com/@luxshayini1203/5g-network-technology-101be0eb2d14'"
+            >
+              click here
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="introvert.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Introverts-Embracing the power of quiet strength</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://medium.com/@luxshayini1203/understanding-introverts-embracing-the-power-of-quiet-strength-2979d06925f2"
+            >
+              click here
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <!-- <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        /> -->
+        <p><a href="mailto:luxshayini1203@gmail.com"><i class="fa fa-fw fa-envelope"></i>luxshayini1203@gmail.com</a></p>
+      </div>
+      
+    </div>
+    
+  </section>
+  <footer>
+    <a href="https://www.linkedin.com/in/luxshayini/"><i class="fa fa-linkedin" aria-hidden="true" style="font-size:24px"></i></a>
+    <a href="https://github.com/T-Luxshayini"><i class="fa fa-github" style="font-size:24px"></i></a>
+    <a href="https://x.com/luxsha_t"  target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="font-size:24px"></i>
+    </a>
+    <br>Copyright &#169; 2024 Luxsha. All Rights Reserved.
+    <a href="https://github.com/T-Luxshayini" target="_blank" rel="noreferrer"></a>
+  </footer>
+  <script>
+  function toggleMenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+  }
+  </script>
+</body>
+</html>
